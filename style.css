@@ -1,0 +1,102 @@
+* {margin: 0; padding: 0;}
+body {
+	width: 900px;
+	margin:auto;
+}
+
+header{
+	width: 900px;
+	height: 250px;
+}
+header img{
+	width: 900px;
+	height: 250px;
+}
+
+menu{
+	width: 900px;
+	height: 40px;
+	background: #f2f2f2;
+	margin-top: 5px;
+}
+
+menu li{
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+menu li a{
+	text-decoration: none;
+	color: #000000;
+}
+menu li a:hover {
+	color: white;
+}
+
+.mystory{
+	width: 100%;
+	overflow: hidden;
+	background-color: grey;
+	margin-top: 5px;
+}
+.mystory h1 {
+	text-align: center;
+}
+.mystory .mystoryKiri {
+	width: 435px;
+	float: left;
+	margin: 10px 5px 5px 10px;
+}
+.mystory img{
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.mystory .mystoryKanan {
+	width: 435px;
+	float: left;
+	margin: 10px 10px 5px 5px;
+}
+
+.kucing{
+	width: 100%;
+	overflow: hidden;
+	background-color: grey;
+	margin-top: 5px;
+}
+.kucing .widget{
+	width: 245px;
+	float: left;
+	background-color: green;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.kucing .widget .myPicture{
+	margin: 0 5px;
+}
+.kucing .widget .myPicture img{
+	width: 125px;
+	height: 150px;
+	margin-right: 2.5px;
+	margin-left: 50px;
+}
+.kucing .widget .myPicture h3{
+	text-align: center;
+	margin: 5px 0 10px;
+}
+.kucing .apapun img{
+	width: 625px;
+	height: 385px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.kucing .apapun p{
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
